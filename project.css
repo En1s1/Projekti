@@ -379,6 +379,14 @@ transparent;
 .btn-45:hover:before {
   transform: translateX(100%);
 }
+.btn-45 span {
+  font-weight: 1100;
+  color: #476778;
+  transition: color 0.3s ease;
+  opacity: 149%;
+  text-shadow: 0 0 1px #ffffff,0 0 20px #60a0c3,0 0 30px #60a0c3, 0 0 10px #333;
+  filter: brightness(2.5);
+}
 .btn-7,
 .btn-7 *,
 .btn-7 :after,
