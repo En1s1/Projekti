@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <title>Login </title>
+</head>
+<body>
+
+  <div class="login-container">
+        <form class="login-form" action="welcome.html" method="GET">
+            <h2>Login to our Page</h2>
+            <label for="username"><b>Username:</b></label>
+            <input type="text" id="username" name="username" required placeholder="Type Username">
+
+            <label for="password"><b>Password:</b></label>
+            <input type="password" id="password" name="password" required placeholder="Type password">
+
+            <button type="submit" class="login-button">Login</button>
+            <p><i>You don't have an account. Register!</i></p>
+            <div class="button" onclick="goToAnotherPage()">
+            <button type="submit" class="Register" >Register Here! </button>
+        </form>
+    </div>
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    filter: drop-shadow(1px 1px 14px cyan);
+}
+S
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #3e4e54;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-shadow: 0 0 1px #ffffff,0 0 20px #23bdec,0 0 30px #23bdec,
+    0 0 10px #333;
+    filter: brightness(1.5px);
+    font-family: "Ga Maamli", serif; /**/
+    font-weight: 700;
+    font-style: normal;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+.login-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+    font-family: Arial;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+}
+.Register {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+    font-family: Arial;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.Register:hover {
+    background-color: grey;
+}
+
+.login-button:hover {
+    background-color: silver;
+}
+
+    </style>
+        <script>
+        function goToAnotherPage() {
+    window.location.href = "register.html";
+}
+    </script>
+</body>
+</html>
