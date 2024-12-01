@@ -86,7 +86,7 @@
             <b style="color: rgb(44, 147, 187); font-weight: 700; font-size: 16px; box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;">Accident Documentation: "In the event of an accident, automatically recorded footage serves as critical evidence, helping you stay protected and informed.</b>
 
             <br>
-            <button class="btn-45" style="margin-top: 15px;"><span>> Camera 4 Cars</span></button><!--class="no-change"-->
+            <button class="btn-45" style="margin-top: 15px;" onclick="goToAnotherPage()"><span>> Camera 4 Cars</span></button><!--class="no-change"-->
         </div>
         <div class="feature3">
             <img src="#" alt="">
@@ -102,7 +102,7 @@
             <b style="color: rgb(146, 110, 68); font-weight: 700; font-size: 16px; box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;">Child Safety Features: "Designed with families in mind, our child safety features help you keep track of young family members with ease and security."</b>
 
             <br>
-            <button class="btn-7" style="margin-top: 15px;"><span id="butoni">>Family Security</span></button>
+            <button class="btn-7" style="margin-top: 15px;" onclick="goToAnotherPage()1"><span id="butoni">>Family Security</span></button>
         </div>
         </div>
     </section>
@@ -147,7 +147,15 @@
       
       </div>
     </footer>
-
+        <script>
+                function goToAnotherPage() {
+                    window.location.href = "Camera.html";
+                    }
+            
+            function goToAnotherPage1() {
+                    window.location.href = "Family.html";
+            }
+        </script>
 
 </body>
 </html>
