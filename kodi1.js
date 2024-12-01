@@ -42,12 +42,11 @@ function toggleState3() {
 }
 
 let imgObject = [
-  "imgS/Fam1.jpg",
-   "imgS/Fam3.jpg",
+  "imgS/Famm1.jpg",
    "imgS/fam4.jpg",
+   "imgS/Fam3.jpg",
    "imgS/Fam2.jpg"
 ];
-
 
 let mainImg = 0;
 let prevImg = imgObject.length - 1;
